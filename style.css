@@ -1,0 +1,64 @@
+.list-group{
+    flex :1;
+}
+.column{
+    background-image: linear-gradient(#46f3ab, rgb(118, 231, 212));
+    height: 70vh; 
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    overflow: scroll;
+    z-index : 3;
+     
+}
+.list-group{
+    flex-grow: 1;
+    scroll-behavior: auto;
+    background-color: #fafafa(44, 40, 40);
+    min-height: 300px;
+    padding: 20px;
+    box-shadow: #00000042 0px 1px 2px;
+}
+.Priority{
+    flex :1;
+    padding: 20px;
+    width: 50%;
+    flex-direction: row;
+    z-index: 2;
+   
+}
+#pri{
+    align-self: left;
+    flex :1;
+    z-index: 2;
+}
+.take{
+    background-image: linear-gradient(#666a75, rgb(33, 37, 37));
+    height: 30vh;
+    display: flex;
+    flex-shrink :1;
+    flex-direction : vertical;
+    justify-content: center;
+    align-items: center;
+    color: #fafafa;
+    /* background-color: #0a0000(44, 40, 40);
+    display: flex;
+    min-height: 100px;
+    padding: 20px;
+    box-shadow: #00000042 0px 1px 2px;
+    justify-content: center;
+    align-items: center; */
+}
+form #button-addon2{
+    color: #0e0d0d;
+    background-color: aqua;
+   
+
+}
+form{
+    padding: 20px;
+    flex:1;
+    align-content: center;
+}
+
